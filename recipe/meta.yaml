@@ -1,5 +1,5 @@
 {% set name = "cctk" %}
-{% set version = "0.2.18" %}
+{% set version = "0.2.19" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 83881c5ce07edcb5b45b9e4d7771992974c1cf622d8ef272d4f35e9f28889037
+  sha256: 96a151cf99d80f4c0d933a252f8fc6978505bd38ee0fc20e9455693ddddf345a
 
 build:
   number: 0
@@ -45,7 +45,7 @@ about:
   license_file: LICENSE
   summary: computational chemistry toolkit
   doc_url: https://cctk.readthedocs.io
-  dev_url: https://github.com/ekwan/cctk 
+  dev_url: https://github.com/ekwan/cctk
 
 extra:
   recipe-maintainers:
