@@ -1,5 +1,5 @@
 {% set name = "cctk" %}
-{% set version = "0.2.19" %}
+{% set version = "0.2.20" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 96a151cf99d80f4c0d933a252f8fc6978505bd38ee0fc20e9455693ddddf345a
+  sha256: ae35f82e35808c40839b7140988a1c6acf04fc6c5813d09a214820aecc8e2eb1
 
 build:
   number: 0
